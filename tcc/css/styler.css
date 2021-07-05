@@ -1,0 +1,227 @@
+#container{
+	background-color: #f9fd02;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #f9fd02;
+	background-color: #f9fd02;
+}
+
+.nav{
+	list-style:none;
+	padding-left:0px;
+	display:block;
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+}
+#menu{
+	background-color: #000000;
+}
+ul#menu{
+
+	margin-top:55px;
+	display: block;
+	padding-left:-15px;
+	list-style:none;
+	margin-left:400px;
+	
+}
+ul#menu li{
+	
+	float:left;
+	margin-right:30px;
+	
+}
+ul#menu li a:hover{
+	color: #000000a6;
+		
+}
+ 
+ ul#marcas{
+	margin-top:55px;
+	display: block;
+	padding-left:-15px;
+	list-style:none;
+	margin-left:130px;
+}
+ul#marcas li{
+	float:left;
+	margin-right:30px;
+}
+
+.roda{
+	margin-left:-20px;
+}
+#contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 10px 10px 20px 20px;
+	background-color: #f5f5fd;
+	color: #000000;
+}
+#mensagem{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 10px 10px 20px 20px;
+	background-color: #f5f5fd;
+	color: #000000;
+}
+
+#sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 10px 10px 20px 20px;
+	background-color: #191970;
+	color: #FFFFFF;
+
+}
+#sobre h2 {
+	color: #FFFFFF;
+}
+#sobre p {
+	margin-bottom: 2.5em;
+	max-width: 1000px;
+}
+#sobre p a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#sobre p a:hover {
+	color: #ffae00a6;
+}
+#alessandro{
+	color: #FFFFFF;
+	
+}
+#alessandro img{
+	width: 400px;
+	border: 10px solid #ffffff;
+
+}
+.corpo{
+	width: 960px;
+	margin: auto;
+}
+.conteudo{
+	display: table;
+}
+.ima{
+	display: table-cell;
+	float: left;
+	width: 300px;
+}
+.ima img{
+	width: 300px;
+}
+.texto{
+	color: #000000;
+	display: table-cell;
+	float: left;
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.corpo h2{
+	color: #000000;
+}
+
+.card-body {
+  text-align: center;
+}
+/*voltar*/
+.breadcrumb {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 0.75rem 1rem;
+	margin-bottom: 1rem;
+	list-style: none;
+	background-color: #f9fd02;
+	border-radius: 0.25rem;
+  }
+  
+  .breadcrumb-item {
+	display: -ms-flexbox;
+	display: flex;
+  }
+  
+  .breadcrumb-item + .breadcrumb-item {
+	padding-left: 0.5rem;
+  }
+  
+  .breadcrumb-item + .breadcrumb-item::before {
+	display: inline-block;
+	padding-right: 0.5rem;
+	color: #6c757d;
+	content: "/";
+  }
+  
+  .breadcrumb-item + .breadcrumb-item:hover::before {
+	text-decoration: underline;
+  }
+  
+  .breadcrumb-item + .breadcrumb-item:hover::before {
+	text-decoration: none;
+  }
+  
+  .breadcrumb-item.active {
+	color: #6c757d;
+  }
+
+  /*volar fim*/
+
+.title{
+	text-align: center;
+	padding: 25px 0px;
+}
+.title p {
+	font-size: 25px;
+	padding: 25px 0px;
+	color: #fd0202;
+}
+.card-body {
+	box-shadow:  0 0 20px 7px rgba(0,0,0,1);
+}
+.card {
+	margin: 20px 10px;
+}
+.card-body a {
+	color: #0c7f90;
+	text-decoration: none;
+	font-size: 15px;
+	margin-top: auto;
+	font-weight: 600;
+}
+.card-body a:hover {
+	color: #63a6b0;
+	text-decoration: none;
+}
+
+  
+  .card-body button {
+	width: 90%;
+	padding: 15px 0px;
+	border: none;
+	background: var(--blue);
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-size: 1.1em;
+	cursor: pointer;
+	transition: 0.3s ease;
+	margin-bottom: 10px;
+  }
+  
+  .card-body button:hover {
+	background: #dedede;
+	color: var(--blue);
+  }
